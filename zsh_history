@@ -7287,3 +7287,18 @@ ls
 : 1486025065:0;killall Finder
 : 1486025140:0;ls
 : 1486025154:0;mkdir dotfiles-original
+: 1486027883:0;cd dotfiles
+: 1486027890:0;touch vimrc.bundles
+: 1486028057:0;cd ..
+: 1486028062:0;git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+: 1486028078:0;env RCRC=$HOME/dotfiles/rcrc rcup
+: 1486028089:0;vim
+: 1486028503:0;cd dotfiles
+: 1486028509:0;git clone git@github.com:powerline/fonts.git powerline-fonts
+: 1486028742:0;vim
+: 1486028885:0;cd powerline-fonts
+: 1486028887:0;ls
+: 1486028895:0;./install.sh
+: 1486029559:0;vim
+: 1486029891:0;cd ..
+: 1486029894:0;git add .
