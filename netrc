@@ -1,0 +1,6 @@
+machine api.heroku.com
+  login attmhage@gmail.com
+  password 8a5ab44b-97cc-4f15-b1e2-8be6ec188cd3
+machine git.heroku.com
+  login attmhage@gmail.com
+  password 8a5ab44b-97cc-4f15-b1e2-8be6ec188cd3

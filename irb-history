@@ -1,0 +1,100 @@
+Project.first.topics.sort
+Project.first.topics.order('title')
+Project.first.topics.order('updated_at')
+Project.first.topics.most_recent
+Project.first.topics.most_recent.class
+Topic.last
+Project.first.save
+Project.first.update(updater_id:1)
+Project.first.topics.most_recent.updater
+Project.first.updater
+Project.all.update(creator: User(2))
+Project.all.update(creator: User.second)
+Project.all.update(creator: User.first)
+Project.all.update(creator: 1))
+Project.all.update(creator: 1)
+Project.update_all(creator: User.second)
+Project.each do |x| x.update(creator: User.second)
+Project.all.each do |x| x.update(creator: User.second) end
+Topic.all.each do |x| x.update(updater: User.second) end
+Topic.all.each do |x| x.update(creator: User.second) endquit
+Topic.all.each do |x| x.update(creator: User.second) end
+Project.first.creator = 1
+Project.first.creator = User.first
+Project.first.update(creator: User.first)
+Project.first.update(updater: User.first)
+Project.topics.most_recent.update(updater: User.first)
+Project.first.topics.most_recent.update(updater: User.first)
+Project.first.update(updater: User.second)
+Vacature.all
+Vacature.all.vacature
+Vacature.all.published
+Vacature.first.
+end
+Vacature.first
+Vacature.first.vacature?
+Vacature.first.kind.vacature?
+Vacature.first.kind.vacatur?
+Vacature.first.kind.stage?
+Vacature.all.kind.vacature
+Vacature.vacature
+Vacature.vacature.count
+Project.last.updater = User.first
+Project.last.save
+Project.last
+Project.last.update(updater: User.first)
+Project.new
+Project.new(header_image:"hell")
+Rails.root
+Project.first
+Project.new(header_image: "kennislink-header__1_.webp")
+_.save
+Project.new(intro: "la")
+a = Project.new
+a.header_image = File.open(File.join(Rails.root, '/spec/support/fixtures/crosshair.png'))
+a
+a.attach_file("header_image", File.open(File.join(Rails.root, '/spec/support/fixtures/crosshair.png')))
+Logo.last
+Logo.first
+Logo.published
+jim, cook = 2
+[jim, cook] = 2
+jim, cook = [1]
+jim
+cook
+"new name".slugged
+"new name".parameterize
+Vacature.new
+User.last
+User.all.count
+Logo.new
+a.priority
+a.priority.value
+a.priority.value.text
+a = Logo.new
+a.priority.values
+a.priority.text
+a.priority_text
+a = _
+Pages.delete_all
+Page.delete_all
+Page.new(title:"hell").save
+Page.find_each(&:save)
+User.create(email: "timmo@demonsters.nl", password: "123456", password_confirmation: "123456"
+
+)
+)reload!
+reload!
+Page.last
+Page.new
+Page.blocks
+Page.new.blocks
+Block.new
+Block.last.cols
+Block.last
+Block.find(52)
+Content.find(70)
+_.persisted?
+Col.find(232)
+Col.find(231)
+quit

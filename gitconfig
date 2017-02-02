@@ -1,0 +1,23 @@
+[user]
+	name = tmhage
+	email = attmhage@gmail.com
+[color]
+	ui = true
+[merge]
+	tool = opendiff
+	conflictstyle = diff3
+	prompt = false
+[mergetool]
+	keepBackup = false
+[difftool]
+	prompt = false
+[core]
+	excludesfile = /Users/tmhage/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[url "https://github.com/"]
+	insteadOf = git://github.com/

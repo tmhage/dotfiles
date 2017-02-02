@@ -1,0 +1,24 @@
+/d
+\d
+SELECT * FROM students;
+\d
+SELECT * FROM students;
+SELECT name,id FROM students;
+SELECT * FROM students;
+SELECT * FROM students WHERE gender='male';
+SELECT * FROM students WHERE gender='female';
+SELECT * FROM students ORDER BY gender;
+SELECT * FROM students ORDER BY course;
+SELECT * FROM students ORDER BY courses;
+SELECT * FROM students ORDER BY id;
+SELECT * FROM students ORDER BY name;
+UPDATE students SET name='Bert2' WHERE id=3;
+SELECT * FROM students ORDER BY name;
+UPDATE students SET name = upper(name)SELECT * FROM students ORDER BY name;
+SELECT * FROM students;
+UPDATE students SET name = UPPER(name)SELECT * FROM students;
+SELECT * FROM students;
+UPDATE students SET name = upper(name);
+SELECT * FROM students;
+SELECT c.title, s.name FROM courses AS c JOIN course_students AS cs ON c.id = cs.course_id JOIN students s ON s.id = cs.student_id;
+SELECT c.title, s.name FROM courses AS c JOIN courses_students AS cs ON c.id = cs.course_id JOIN students s ON s.id = cs.student_id;

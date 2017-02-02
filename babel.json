@@ -1,0 +1,1276 @@
+{
+  "{\"filename\":\"/Users/tmhage/code/tasteofcode-webpack/linter.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/tmhage/code/tasteofcode-webpack\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.20.0": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/tmhage/code/tasteofcode-webpack/linter.js",
+      "filenameRelative": "/Users/tmhage/code/tasteofcode-webpack/linter.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "linter.js",
+      "sourceFileName": "linter.js",
+      "sourceRoot": "/Users/tmhage/code/tasteofcode-webpack",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/tmhage/code/tasteofcode-webpack",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "linter"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar lint = require('mocha-eslint');\n\nvar paths = ['src'];\n\nvar options = {\n  // Note: we saw timeouts with the 2000ms mocha timeout setting,\n  // thus raised to 5000ms for eslint\n  timeout: 5000 };\n\n// Run the tests\nlint(paths, options);\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxpbnRlci5qcyJdLCJuYW1lcyI6WyJsaW50IiwicmVxdWlyZSIsInBhdGhzIiwib3B0aW9ucyIsInRpbWVvdXQiXSwibWFwcGluZ3MiOiI7O0FBQUEsSUFBSUEsT0FBT0MsUUFBUSxjQUFSLENBQVg7O0FBRUEsSUFBSUMsUUFBUSxDQUNWLEtBRFUsQ0FBWjs7QUFJQSxJQUFJQyxVQUFVO0FBQ1o7QUFDQTtBQUNBQyxXQUFTLElBSEcsRUFBZDs7QUFNQTtBQUNBSixLQUFLRSxLQUFMLEVBQVlDLE9BQVoiLCJmaWxlIjoibGludGVyLmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy90bWhhZ2UvY29kZS90YXN0ZW9mY29kZS13ZWJwYWNrIiwic291cmNlc0NvbnRlbnQiOlsidmFyIGxpbnQgPSByZXF1aXJlKCdtb2NoYS1lc2xpbnQnKTtcblxudmFyIHBhdGhzID0gW1xuICAnc3JjJyxcbl07XG5cbnZhciBvcHRpb25zID0ge1xuICAvLyBOb3RlOiB3ZSBzYXcgdGltZW91dHMgd2l0aCB0aGUgMjAwMG1zIG1vY2hhIHRpbWVvdXQgc2V0dGluZyxcbiAgLy8gdGh1cyByYWlzZWQgdG8gNTAwMG1zIGZvciBlc2xpbnRcbiAgdGltZW91dDogNTAwMCwgIC8vIERlZmF1bHRzIHRvIHRoZSBnbG9iYWwgbW9jaGEgYHRpbWVvdXRgIG9wdGlvblxufTtcblxuLy8gUnVuIHRoZSB0ZXN0c1xubGludChwYXRocywgb3B0aW9ucyk7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "linter.js"
+      ],
+      "names": [
+        "lint",
+        "require",
+        "paths",
+        "options",
+        "timeout"
+      ],
+      "mappings": ";;AAAA,IAAIA,OAAOC,QAAQ,cAAR,CAAX;;AAEA,IAAIC,QAAQ,CACV,KADU,CAAZ;;AAIA,IAAIC,UAAU;AACZ;AACA;AACAC,WAAS,IAHG,EAAd;;AAMA;AACAJ,KAAKE,KAAL,EAAYC,OAAZ",
+      "file": "linter.js",
+      "sourceRoot": "/Users/tmhage/code/tasteofcode-webpack",
+      "sourcesContent": [
+        "var lint = require('mocha-eslint');\n\nvar paths = [\n  'src',\n];\n\nvar options = {\n  // Note: we saw timeouts with the 2000ms mocha timeout setting,\n  // thus raised to 5000ms for eslint\n  timeout: 5000,  // Defaults to the global mocha `timeout` option\n};\n\n// Run the tests\nlint(paths, options);\n"
+      ]
+    },
+    "mtime": 1481801365000
+  },
+  "{\"filename\":\"/Users/tmhage/code/tasteofcode-webpack/src/App.test.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/tmhage/code/tasteofcode-webpack/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.20.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "chai",
+            "imported": [
+              "default",
+              "expect"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "chai"
+              },
+              {
+                "kind": "named",
+                "imported": "expect",
+                "local": "expect"
+              }
+            ]
+          },
+          {
+            "source": "./App",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "App"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/tmhage/code/tasteofcode-webpack/src/App.test.js",
+      "filenameRelative": "/Users/tmhage/code/tasteofcode-webpack/src/App.test.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "App.test.js",
+      "sourceFileName": "App.test.js",
+      "sourceRoot": "/Users/tmhage/code/tasteofcode-webpack/src",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/tmhage/code/tasteofcode-webpack/src",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "App.test"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _chai = require('chai');\n\nvar _chai2 = _interopRequireDefault(_chai);\n\nvar _App = require('./App');\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\ndescribe('App', function () {\n  var app = new _App2.default();\n\n  it('creates 50 balloons', function () {\n    (0, _chai.expect)(app.props.balloons.length).to.eq(50);\n  });\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC50ZXN0LmpzIl0sIm5hbWVzIjpbImRlc2NyaWJlIiwiYXBwIiwiaXQiLCJwcm9wcyIsImJhbGxvb25zIiwibGVuZ3RoIiwidG8iLCJlcSJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7OztBQUNBOzs7Ozs7QUFFQUEsU0FBUyxLQUFULEVBQWdCLFlBQU07QUFDcEIsTUFBTUMsTUFBTSxtQkFBWjs7QUFFQUMsS0FBRyxxQkFBSCxFQUEwQixZQUFNO0FBQzlCLHNCQUFPRCxJQUFJRSxLQUFKLENBQVVDLFFBQVYsQ0FBbUJDLE1BQTFCLEVBQWtDQyxFQUFsQyxDQUFxQ0MsRUFBckMsQ0FBd0MsRUFBeEM7QUFDRCxHQUZEO0FBR0QsQ0FORCIsImZpbGUiOiJBcHAudGVzdC5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvdG1oYWdlL2NvZGUvdGFzdGVvZmNvZGUtd2VicGFjay9zcmMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgY2hhaSwgeyBleHBlY3QgfSBmcm9tICdjaGFpJ1xuaW1wb3J0IEFwcCBmcm9tICcuL0FwcCdcblxuZGVzY3JpYmUoJ0FwcCcsICgpID0+IHtcbiAgY29uc3QgYXBwID0gbmV3IEFwcCgpXG5cbiAgaXQoJ2NyZWF0ZXMgNTAgYmFsbG9vbnMnLCAoKSA9PiB7XG4gICAgZXhwZWN0KGFwcC5wcm9wcy5iYWxsb29ucy5sZW5ndGgpLnRvLmVxKDUwKVxuICB9KVxufSlcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "App.test.js"
+      ],
+      "names": [
+        "describe",
+        "app",
+        "it",
+        "props",
+        "balloons",
+        "length",
+        "to",
+        "eq"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;;;AAEAA,SAAS,KAAT,EAAgB,YAAM;AACpB,MAAMC,MAAM,mBAAZ;;AAEAC,KAAG,qBAAH,EAA0B,YAAM;AAC9B,sBAAOD,IAAIE,KAAJ,CAAUC,QAAV,CAAmBC,MAA1B,EAAkCC,EAAlC,CAAqCC,EAArC,CAAwC,EAAxC;AACD,GAFD;AAGD,CAND",
+      "file": "App.test.js",
+      "sourceRoot": "/Users/tmhage/code/tasteofcode-webpack/src",
+      "sourcesContent": [
+        "import chai, { expect } from 'chai'\nimport App from './App'\n\ndescribe('App', () => {\n  const app = new App()\n\n  it('creates 50 balloons', () => {\n    expect(app.props.balloons.length).to.eq(50)\n  })\n})\n"
+      ]
+    },
+    "mtime": 1481801498000
+  },
+  "{\"filename\":\"/Users/tmhage/code/tasteofcode-webpack/src/App.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/tmhage/code/tasteofcode-webpack/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.20.0": {
+    "metadata": {
+      "usedHelpers": [
+        "createClass",
+        "classCallCheck",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "./Balloon",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Balloon"
+              }
+            ]
+          },
+          {
+            "source": "./App.sass",
+            "imported": [],
+            "specifiers": []
+          }
+        ],
+        "exports": {
+          "exported": [
+            "App"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "App",
+              "exported": "default"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/tmhage/code/tasteofcode-webpack/src/App.js",
+      "filenameRelative": "/Users/tmhage/code/tasteofcode-webpack/src/App.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "App.js",
+      "sourceFileName": "App.js",
+      "sourceRoot": "/Users/tmhage/code/tasteofcode-webpack/src",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/tmhage/code/tasteofcode-webpack/src",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "App"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _Balloon = require('./Balloon');\n\nvar _Balloon2 = _interopRequireDefault(_Balloon);\n\nrequire('./App.sass');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar App = function () {\n  function App() {\n    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n\n    _classCallCheck(this, App);\n\n    this.props = Object.assign({}, App.defaults, props);\n    var balloonCount = this.props.balloonCount;\n\n    var onPop = this.onPop.bind(this);\n\n    this.props.balloons = Array.apply(null, { length: balloonCount }).map(function (_, index) {\n      return new _Balloon2.default({ index: index, onPop: onPop });\n    });\n  }\n\n  _createClass(App, [{\n    key: 'onPop',\n    value: function onPop(index) {\n      var _props = this.props,\n          balloons = _props.balloons,\n          score = _props.score;\n\n      var poppedBalloon = balloons[index];\n      if (!poppedBalloon) {\n        return;\n      }\n\n      this.removeBalloon(index);\n      this.updateScore(poppedBalloon);\n\n      console.log(this.props.score, this.props.balloons.length);\n    }\n  }, {\n    key: 'updateScore',\n    value: function updateScore(poppedBalloon) {\n      var points = 100 - poppedBalloon.props.width;\n      this.props.score += points;\n    }\n  }, {\n    key: 'removeBalloon',\n    value: function removeBalloon(index) {\n      var balloons = this.props.balloons;\n\n      this.props.balloons = balloons.slice(0, index).concat(balloons.slice(index + 1));\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var balloons = this.props.balloons;\n\n      balloons.map(function (balloon) {\n        balloon.mount();\n      });\n    }\n  }]);\n\n  return App;\n}();\n\nApp.defaults = {\n  balloonCount: 50,\n  score: 0\n};\nexports.default = App;\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcyJdLCJuYW1lcyI6WyJBcHAiLCJwcm9wcyIsIk9iamVjdCIsImFzc2lnbiIsImRlZmF1bHRzIiwiYmFsbG9vbkNvdW50Iiwib25Qb3AiLCJiaW5kIiwiYmFsbG9vbnMiLCJBcnJheSIsImFwcGx5IiwibGVuZ3RoIiwibWFwIiwiXyIsImluZGV4Iiwic2NvcmUiLCJwb3BwZWRCYWxsb29uIiwicmVtb3ZlQmFsbG9vbiIsInVwZGF0ZVNjb3JlIiwiY29uc29sZSIsImxvZyIsInBvaW50cyIsIndpZHRoIiwic2xpY2UiLCJjb25jYXQiLCJiYWxsb29uIiwibW91bnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQUE7Ozs7QUFDQTs7Ozs7O0lBRXFCQSxHO0FBTW5CLGlCQUF3QjtBQUFBLFFBQVpDLEtBQVksdUVBQUosRUFBSTs7QUFBQTs7QUFDdEIsU0FBS0EsS0FBTCxHQUFhQyxPQUFPQyxNQUFQLENBQWMsRUFBZCxFQUFrQkgsSUFBSUksUUFBdEIsRUFBZ0NILEtBQWhDLENBQWI7QUFEc0IsUUFFZEksWUFGYyxHQUVHLEtBQUtKLEtBRlIsQ0FFZEksWUFGYzs7QUFHdEIsUUFBTUMsUUFBUSxLQUFLQSxLQUFMLENBQVdDLElBQVgsQ0FBZ0IsSUFBaEIsQ0FBZDs7QUFFQSxTQUFLTixLQUFMLENBQVdPLFFBQVgsR0FBc0JDLE1BQU1DLEtBQU4sQ0FBWSxJQUFaLEVBQWtCLEVBQUVDLFFBQVFOLFlBQVYsRUFBbEIsRUFBNENPLEdBQTVDLENBQWdELFVBQUNDLENBQUQsRUFBSUMsS0FBSixFQUFjO0FBQ2xGLGFBQU8sc0JBQVksRUFBRUEsWUFBRixFQUFTUixZQUFULEVBQVosQ0FBUDtBQUNELEtBRnFCLENBQXRCO0FBR0Q7Ozs7MEJBRUtRLEssRUFBTztBQUFBLG1CQUNpQixLQUFLYixLQUR0QjtBQUFBLFVBQ0hPLFFBREcsVUFDSEEsUUFERztBQUFBLFVBQ09PLEtBRFAsVUFDT0EsS0FEUDs7QUFFWCxVQUFNQyxnQkFBZ0JSLFNBQVNNLEtBQVQsQ0FBdEI7QUFDQSxVQUFJLENBQUNFLGFBQUwsRUFBb0I7QUFBRTtBQUFROztBQUU5QixXQUFLQyxhQUFMLENBQW1CSCxLQUFuQjtBQUNBLFdBQUtJLFdBQUwsQ0FBaUJGLGFBQWpCOztBQUVBRyxjQUFRQyxHQUFSLENBQVksS0FBS25CLEtBQUwsQ0FBV2MsS0FBdkIsRUFBOEIsS0FBS2QsS0FBTCxDQUFXTyxRQUFYLENBQW9CRyxNQUFsRDtBQUNEOzs7Z0NBRVdLLGEsRUFBZTtBQUN6QixVQUFNSyxTQUFTLE1BQU1MLGNBQWNmLEtBQWQsQ0FBb0JxQixLQUF6QztBQUNBLFdBQUtyQixLQUFMLENBQVdjLEtBQVgsSUFBb0JNLE1BQXBCO0FBQ0Q7OztrQ0FFYVAsSyxFQUFPO0FBQUEsVUFDWE4sUUFEVyxHQUNFLEtBQUtQLEtBRFAsQ0FDWE8sUUFEVzs7QUFFbkIsV0FBS1AsS0FBTCxDQUFXTyxRQUFYLEdBQXNCQSxTQUFTZSxLQUFULENBQWUsQ0FBZixFQUFrQlQsS0FBbEIsRUFDbkJVLE1BRG1CLENBQ1poQixTQUFTZSxLQUFULENBQWVULFFBQVEsQ0FBdkIsQ0FEWSxDQUF0QjtBQUVEOzs7NkJBRVE7QUFBQSxVQUNDTixRQURELEdBQ2MsS0FBS1AsS0FEbkIsQ0FDQ08sUUFERDs7QUFFUEEsZUFBU0ksR0FBVCxDQUFhLFVBQUNhLE9BQUQsRUFBYTtBQUN4QkEsZ0JBQVFDLEtBQVI7QUFDRCxPQUZEO0FBR0Q7Ozs7OztBQTNDa0IxQixHLENBQ1pJLFEsR0FBVztBQUNoQkMsZ0JBQWMsRUFERTtBQUVoQlUsU0FBTztBQUZTLEM7a0JBRENmLEciLCJmaWxlIjoiQXBwLmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy90bWhhZ2UvY29kZS90YXN0ZW9mY29kZS13ZWJwYWNrL3NyYyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBCYWxsb29uIGZyb20gJy4vQmFsbG9vbidcbmltcG9ydCAnLi9BcHAuc2FzcydcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgQXBwIHtcbiAgc3RhdGljIGRlZmF1bHRzID0ge1xuICAgIGJhbGxvb25Db3VudDogNTAsXG4gICAgc2NvcmU6IDBcbiAgfVxuXG4gIGNvbnN0cnVjdG9yKHByb3BzID0ge30pIHtcbiAgICB0aGlzLnByb3BzID0gT2JqZWN0LmFzc2lnbih7fSwgQXBwLmRlZmF1bHRzLCBwcm9wcylcbiAgICBjb25zdCB7IGJhbGxvb25Db3VudCB9ID0gdGhpcy5wcm9wc1xuICAgIGNvbnN0IG9uUG9wID0gdGhpcy5vblBvcC5iaW5kKHRoaXMpXG5cbiAgICB0aGlzLnByb3BzLmJhbGxvb25zID0gQXJyYXkuYXBwbHkobnVsbCwgeyBsZW5ndGg6IGJhbGxvb25Db3VudCB9KS5tYXAoKF8sIGluZGV4KSA9PiB7XG4gICAgICByZXR1cm4gbmV3IEJhbGxvb24oeyBpbmRleCwgb25Qb3AgfSlcbiAgICB9KVxuICB9XG5cbiAgb25Qb3AoaW5kZXgpIHtcbiAgICBjb25zdCB7IGJhbGxvb25zLCBzY29yZSB9ID0gdGhpcy5wcm9wc1xuICAgIGNvbnN0IHBvcHBlZEJhbGxvb24gPSBiYWxsb29uc1tpbmRleF1cbiAgICBpZiAoIXBvcHBlZEJhbGxvb24pIHsgcmV0dXJuIH1cblxuICAgIHRoaXMucmVtb3ZlQmFsbG9vbihpbmRleClcbiAgICB0aGlzLnVwZGF0ZVNjb3JlKHBvcHBlZEJhbGxvb24pXG5cbiAgICBjb25zb2xlLmxvZyh0aGlzLnByb3BzLnNjb3JlLCB0aGlzLnByb3BzLmJhbGxvb25zLmxlbmd0aClcbiAgfVxuXG4gIHVwZGF0ZVNjb3JlKHBvcHBlZEJhbGxvb24pIHtcbiAgICBjb25zdCBwb2ludHMgPSAxMDAgLSBwb3BwZWRCYWxsb29uLnByb3BzLndpZHRoXG4gICAgdGhpcy5wcm9wcy5zY29yZSArPSBwb2ludHNcbiAgfVxuXG4gIHJlbW92ZUJhbGxvb24oaW5kZXgpIHtcbiAgICBjb25zdCB7IGJhbGxvb25zIH0gPSB0aGlzLnByb3BzXG4gICAgdGhpcy5wcm9wcy5iYWxsb29ucyA9IGJhbGxvb25zLnNsaWNlKDAsIGluZGV4KVxuICAgICAgLmNvbmNhdChiYWxsb29ucy5zbGljZShpbmRleCArIDEpKVxuICB9XG5cbiAgcmVuZGVyKCkge1xuICAgIGNvbnN0IHsgYmFsbG9vbnMgfSA9IHRoaXMucHJvcHNcbiAgICBiYWxsb29ucy5tYXAoKGJhbGxvb24pID0+IHtcbiAgICAgIGJhbGxvb24ubW91bnQoKVxuICAgIH0pXG4gIH1cbn1cbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "App.js"
+      ],
+      "names": [
+        "App",
+        "props",
+        "Object",
+        "assign",
+        "defaults",
+        "balloonCount",
+        "onPop",
+        "bind",
+        "balloons",
+        "Array",
+        "apply",
+        "length",
+        "map",
+        "_",
+        "index",
+        "score",
+        "poppedBalloon",
+        "removeBalloon",
+        "updateScore",
+        "console",
+        "log",
+        "points",
+        "width",
+        "slice",
+        "concat",
+        "balloon",
+        "mount"
+      ],
+      "mappings": ";;;;;;;;AAAA;;;;AACA;;;;;;IAEqBA,G;AAMnB,iBAAwB;AAAA,QAAZC,KAAY,uEAAJ,EAAI;;AAAA;;AACtB,SAAKA,KAAL,GAAaC,OAAOC,MAAP,CAAc,EAAd,EAAkBH,IAAII,QAAtB,EAAgCH,KAAhC,CAAb;AADsB,QAEdI,YAFc,GAEG,KAAKJ,KAFR,CAEdI,YAFc;;AAGtB,QAAMC,QAAQ,KAAKA,KAAL,CAAWC,IAAX,CAAgB,IAAhB,CAAd;;AAEA,SAAKN,KAAL,CAAWO,QAAX,GAAsBC,MAAMC,KAAN,CAAY,IAAZ,EAAkB,EAAEC,QAAQN,YAAV,EAAlB,EAA4CO,GAA5C,CAAgD,UAACC,CAAD,EAAIC,KAAJ,EAAc;AAClF,aAAO,sBAAY,EAAEA,YAAF,EAASR,YAAT,EAAZ,CAAP;AACD,KAFqB,CAAtB;AAGD;;;;0BAEKQ,K,EAAO;AAAA,mBACiB,KAAKb,KADtB;AAAA,UACHO,QADG,UACHA,QADG;AAAA,UACOO,KADP,UACOA,KADP;;AAEX,UAAMC,gBAAgBR,SAASM,KAAT,CAAtB;AACA,UAAI,CAACE,aAAL,EAAoB;AAAE;AAAQ;;AAE9B,WAAKC,aAAL,CAAmBH,KAAnB;AACA,WAAKI,WAAL,CAAiBF,aAAjB;;AAEAG,cAAQC,GAAR,CAAY,KAAKnB,KAAL,CAAWc,KAAvB,EAA8B,KAAKd,KAAL,CAAWO,QAAX,CAAoBG,MAAlD;AACD;;;gCAEWK,a,EAAe;AACzB,UAAMK,SAAS,MAAML,cAAcf,KAAd,CAAoBqB,KAAzC;AACA,WAAKrB,KAAL,CAAWc,KAAX,IAAoBM,MAApB;AACD;;;kCAEaP,K,EAAO;AAAA,UACXN,QADW,GACE,KAAKP,KADP,CACXO,QADW;;AAEnB,WAAKP,KAAL,CAAWO,QAAX,GAAsBA,SAASe,KAAT,CAAe,CAAf,EAAkBT,KAAlB,EACnBU,MADmB,CACZhB,SAASe,KAAT,CAAeT,QAAQ,CAAvB,CADY,CAAtB;AAED;;;6BAEQ;AAAA,UACCN,QADD,GACc,KAAKP,KADnB,CACCO,QADD;;AAEPA,eAASI,GAAT,CAAa,UAACa,OAAD,EAAa;AACxBA,gBAAQC,KAAR;AACD,OAFD;AAGD;;;;;;AA3CkB1B,G,CACZI,Q,GAAW;AAChBC,gBAAc,EADE;AAEhBU,SAAO;AAFS,C;kBADCf,G",
+      "file": "App.js",
+      "sourceRoot": "/Users/tmhage/code/tasteofcode-webpack/src",
+      "sourcesContent": [
+        "import Balloon from './Balloon'\nimport './App.sass'\n\nexport default class App {\n  static defaults = {\n    balloonCount: 50,\n    score: 0\n  }\n\n  constructor(props = {}) {\n    this.props = Object.assign({}, App.defaults, props)\n    const { balloonCount } = this.props\n    const onPop = this.onPop.bind(this)\n\n    this.props.balloons = Array.apply(null, { length: balloonCount }).map((_, index) => {\n      return new Balloon({ index, onPop })\n    })\n  }\n\n  onPop(index) {\n    const { balloons, score } = this.props\n    const poppedBalloon = balloons[index]\n    if (!poppedBalloon) { return }\n\n    this.removeBalloon(index)\n    this.updateScore(poppedBalloon)\n\n    console.log(this.props.score, this.props.balloons.length)\n  }\n\n  updateScore(poppedBalloon) {\n    const points = 100 - poppedBalloon.props.width\n    this.props.score += points\n  }\n\n  removeBalloon(index) {\n    const { balloons } = this.props\n    this.props.balloons = balloons.slice(0, index)\n      .concat(balloons.slice(index + 1))\n  }\n\n  render() {\n    const { balloons } = this.props\n    balloons.map((balloon) => {\n      balloon.mount()\n    })\n  }\n}\n"
+      ]
+    },
+    "mtime": 1481800254000
+  },
+  "{\"filename\":\"/Users/tmhage/code/tasteofcode-webpack/src/Balloon.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/tmhage/code/tasteofcode-webpack/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.20.0": {
+    "metadata": {
+      "usedHelpers": [
+        "createClass",
+        "classCallCheck",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "jquery",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "$"
+              }
+            ]
+          },
+          {
+            "source": "./Balloon.sass",
+            "imported": [],
+            "specifiers": []
+          },
+          {
+            "source": "./PopSound",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "PopSound"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "Balloon"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "Balloon",
+              "exported": "default"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/tmhage/code/tasteofcode-webpack/src/Balloon.js",
+      "filenameRelative": "/Users/tmhage/code/tasteofcode-webpack/src/Balloon.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "Balloon.js",
+      "sourceFileName": "Balloon.js",
+      "sourceRoot": "/Users/tmhage/code/tasteofcode-webpack/src",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/tmhage/code/tasteofcode-webpack/src",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "Balloon"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _jquery = require('jquery');\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\nrequire('./Balloon.sass');\n\nvar _PopSound = require('./PopSound');\n\nvar _PopSound2 = _interopRequireDefault(_PopSound);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar Balloon = function () {\n  function Balloon() {\n    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n\n    _classCallCheck(this, Balloon);\n\n    this.props = props;\n    this.id = 'balloon-' + (props.index || 0);\n    this.setWidth();\n    this.setHeight();\n    this.setColor();\n    this.update(props);\n    return this;\n  }\n\n  _createClass(Balloon, [{\n    key: 'mount',\n    value: function mount() {\n      (0, _jquery2.default)(this.domNode).appendTo('body');\n      this.componentDidMount();\n\n      return this;\n    }\n  }, {\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      var width = this.props.width;\n\n      var xdiff = Math.floor(Math.random() * 100);\n      var container = (0, _jquery2.default)('#' + this.id);\n\n      container.bind('click', this.pop.bind(this));\n\n      container.animate({\n        bottom: '100%',\n        left: xdiff + '%'\n      }, 8000 - width * 10);\n    }\n  }, {\n    key: 'unmount',\n    value: function unmount() {\n      var node = (0, _jquery2.default)('#' + this.id);\n      if (node.length > 0) {\n        node.remove();\n      }\n      return this;\n    }\n  }, {\n    key: 'update',\n    value: function update(newProps) {\n      this.props = Object.assign({}, this.props, newProps);\n      this.domNode = this.render();\n    }\n  }, {\n    key: 'getWidth',\n    value: function getWidth() {\n      return this.props.width || this.setWidth();\n    }\n  }, {\n    key: 'setWidth',\n    value: function setWidth() {\n      this.props.width = Math.max(20, Math.floor(Math.random() * 90) + 1);\n      return this.props.width;\n    }\n  }, {\n    key: 'getHeight',\n    value: function getHeight() {\n      return this.props.height || this.setHeight();\n    }\n  }, {\n    key: 'setHeight',\n    value: function setHeight() {\n      this.props.height = 1.2 * this.getWidth();\n      return this.props.height;\n    }\n  }, {\n    key: 'getColor',\n    value: function getColor() {\n      return this.props.color || this.setColor();\n    }\n  }, {\n    key: 'setColor',\n    value: function setColor() {\n      this.props.color = Balloon.colors[Math.floor(Math.random() * Balloon.colors.length)];\n      return this.props.color;\n    }\n  }, {\n    key: 'pop',\n    value: function pop() {\n      var index = this.props.index;\n\n      _PopSound2.default.play();\n      this.unmount();\n      this.props.onPop(index);\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var _props = this.props,\n          color = _props.color,\n          height = _props.height,\n          width = _props.width;\n\n\n      return '\\n      <div class=\\'balloon\\' id=\\'' + this.id + '\\'\\n        style=\\'left: 50%; bottom: 0\\'>\\n        <div class=\\'bubble\\'\\n          style=\\'background-color: ' + color + ';\\n            height: ' + height + 'px;\\n            width: ' + width + 'px;\\n            border-radius: ' + width + 'px / ' + height + 'px\\'/>\\n        <div class=\\'string\\'\\n          style=\\'margin-left: ' + 0.5 * width + 'px; height: ' + 0.5 * height + 'px\\'/>\\n      </div>\\n    ';\n    }\n  }]);\n\n  return Balloon;\n}();\n\nBalloon.colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'];\nexports.default = Balloon;\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkJhbGxvb24uanMiXSwibmFtZXMiOlsiQmFsbG9vbiIsInByb3BzIiwiaWQiLCJpbmRleCIsInNldFdpZHRoIiwic2V0SGVpZ2h0Iiwic2V0Q29sb3IiLCJ1cGRhdGUiLCJkb21Ob2RlIiwiYXBwZW5kVG8iLCJjb21wb25lbnREaWRNb3VudCIsIndpZHRoIiwieGRpZmYiLCJNYXRoIiwiZmxvb3IiLCJyYW5kb20iLCJjb250YWluZXIiLCJiaW5kIiwicG9wIiwiYW5pbWF0ZSIsImJvdHRvbSIsImxlZnQiLCJub2RlIiwibGVuZ3RoIiwicmVtb3ZlIiwibmV3UHJvcHMiLCJPYmplY3QiLCJhc3NpZ24iLCJyZW5kZXIiLCJtYXgiLCJoZWlnaHQiLCJnZXRXaWR0aCIsImNvbG9yIiwiY29sb3JzIiwicGxheSIsInVubW91bnQiLCJvblBvcCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFBQTs7OztBQUNBOztBQUNBOzs7Ozs7OztJQUVxQkEsTztBQWNuQixxQkFBd0I7QUFBQSxRQUFaQyxLQUFZLHVFQUFKLEVBQUk7O0FBQUE7O0FBQ3RCLFNBQUtBLEtBQUwsR0FBYUEsS0FBYjtBQUNBLFNBQUtDLEVBQUwsaUJBQXFCRCxNQUFNRSxLQUFOLElBQWUsQ0FBcEM7QUFDQSxTQUFLQyxRQUFMO0FBQ0EsU0FBS0MsU0FBTDtBQUNBLFNBQUtDLFFBQUw7QUFDQSxTQUFLQyxNQUFMLENBQVlOLEtBQVo7QUFDQSxXQUFPLElBQVA7QUFDRDs7Ozs0QkFFTztBQUNOLDRCQUFFLEtBQUtPLE9BQVAsRUFBZ0JDLFFBQWhCLENBQXlCLE1BQXpCO0FBQ0EsV0FBS0MsaUJBQUw7O0FBRUEsYUFBTyxJQUFQO0FBQ0Q7Ozt3Q0FFbUI7QUFBQSxVQUNWQyxLQURVLEdBQ0EsS0FBS1YsS0FETCxDQUNWVSxLQURVOztBQUVsQixVQUFNQyxRQUFRQyxLQUFLQyxLQUFMLENBQVdELEtBQUtFLE1BQUwsS0FBZ0IsR0FBM0IsQ0FBZDtBQUNBLFVBQU1DLFlBQVksNEJBQU0sS0FBS2QsRUFBWCxDQUFsQjs7QUFFQWMsZ0JBQVVDLElBQVYsQ0FBZSxPQUFmLEVBQXdCLEtBQUtDLEdBQUwsQ0FBU0QsSUFBVCxDQUFjLElBQWQsQ0FBeEI7O0FBRUFELGdCQUFVRyxPQUFWLENBQWtCO0FBQ2hCQyxnQkFBUSxNQURRO0FBRWhCQyxjQUFNVCxRQUFRO0FBRkUsT0FBbEIsRUFHSSxPQUFPRCxRQUFRLEVBSG5CO0FBSUQ7Ozs4QkFFUztBQUNSLFVBQU1XLE9BQU8sNEJBQU0sS0FBS3BCLEVBQVgsQ0FBYjtBQUNBLFVBQUlvQixLQUFLQyxNQUFMLEdBQWMsQ0FBbEIsRUFBcUI7QUFDbkJELGFBQUtFLE1BQUw7QUFDRDtBQUNELGFBQU8sSUFBUDtBQUNEOzs7MkJBRU1DLFEsRUFBVTtBQUNmLFdBQUt4QixLQUFMLEdBQWF5QixPQUFPQyxNQUFQLENBQWMsRUFBZCxFQUFrQixLQUFLMUIsS0FBdkIsRUFBOEJ3QixRQUE5QixDQUFiO0FBQ0EsV0FBS2pCLE9BQUwsR0FBZSxLQUFLb0IsTUFBTCxFQUFmO0FBQ0Q7OzsrQkFFVTtBQUNULGFBQU8sS0FBSzNCLEtBQUwsQ0FBV1UsS0FBWCxJQUFvQixLQUFLUCxRQUFMLEVBQTNCO0FBQ0Q7OzsrQkFFVTtBQUNULFdBQUtILEtBQUwsQ0FBV1UsS0FBWCxHQUFtQkUsS0FBS2dCLEdBQUwsQ0FBUyxFQUFULEVBQWFoQixLQUFLQyxLQUFMLENBQVdELEtBQUtFLE1BQUwsS0FBZ0IsRUFBM0IsSUFBaUMsQ0FBOUMsQ0FBbkI7QUFDQSxhQUFPLEtBQUtkLEtBQUwsQ0FBV1UsS0FBbEI7QUFDRDs7O2dDQUVXO0FBQ1YsYUFBTyxLQUFLVixLQUFMLENBQVc2QixNQUFYLElBQXFCLEtBQUt6QixTQUFMLEVBQTVCO0FBQ0Q7OztnQ0FFVztBQUNWLFdBQUtKLEtBQUwsQ0FBVzZCLE1BQVgsR0FBb0IsTUFBTSxLQUFLQyxRQUFMLEVBQTFCO0FBQ0EsYUFBTyxLQUFLOUIsS0FBTCxDQUFXNkIsTUFBbEI7QUFDRDs7OytCQUVVO0FBQ1QsYUFBTyxLQUFLN0IsS0FBTCxDQUFXK0IsS0FBWCxJQUFvQixLQUFLMUIsUUFBTCxFQUEzQjtBQUNEOzs7K0JBRVU7QUFDVCxXQUFLTCxLQUFMLENBQVcrQixLQUFYLEdBQW1CaEMsUUFBUWlDLE1BQVIsQ0FBZXBCLEtBQUtDLEtBQUwsQ0FBV0QsS0FBS0UsTUFBTCxLQUFnQmYsUUFBUWlDLE1BQVIsQ0FBZVYsTUFBMUMsQ0FBZixDQUFuQjtBQUNBLGFBQU8sS0FBS3RCLEtBQUwsQ0FBVytCLEtBQWxCO0FBQ0Q7OzswQkFFSztBQUFBLFVBQ0k3QixLQURKLEdBQ2MsS0FBS0YsS0FEbkIsQ0FDSUUsS0FESjs7QUFFSix5QkFBUytCLElBQVQ7QUFDQSxXQUFLQyxPQUFMO0FBQ0EsV0FBS2xDLEtBQUwsQ0FBV21DLEtBQVgsQ0FBaUJqQyxLQUFqQjtBQUNEOzs7NkJBRVE7QUFBQSxtQkFDMEIsS0FBS0YsS0FEL0I7QUFBQSxVQUNDK0IsS0FERCxVQUNDQSxLQUREO0FBQUEsVUFDUUYsTUFEUixVQUNRQSxNQURSO0FBQUEsVUFDZ0JuQixLQURoQixVQUNnQkEsS0FEaEI7OztBQUdQLHNEQUM2QixLQUFLVCxFQURsQyx3SEFJaUM4QixLQUpqQywrQkFLa0JGLE1BTGxCLGdDQU1pQm5CLEtBTmpCLHdDQU95QkEsS0FQekIsYUFPc0NtQixNQVB0Qyw4RUFTNEIsTUFBTW5CLEtBVGxDLG9CQVNzRCxNQUFNbUIsTUFUNUQ7QUFZRDs7Ozs7O0FBMUdrQjlCLE8sQ0FDWmlDLE0sR0FBUyxDQUNkLFNBRGMsRUFFZCxTQUZjLEVBR2QsU0FIYyxFQUlkLFNBSmMsRUFLZCxTQUxjLEVBTWQsU0FOYyxFQU9kLFNBUGMsRUFRZCxTQVJjLEVBU2QsU0FUYyxFQVVkLFNBVmMsQztrQkFER2pDLE8iLCJmaWxlIjoiQmFsbG9vbi5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvdG1oYWdlL2NvZGUvdGFzdGVvZmNvZGUtd2VicGFjay9zcmMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJCBmcm9tICdqcXVlcnknXG5pbXBvcnQgJy4vQmFsbG9vbi5zYXNzJ1xuaW1wb3J0IFBvcFNvdW5kIGZyb20gJy4vUG9wU291bmQnXG5cbmV4cG9ydCBkZWZhdWx0IGNsYXNzIEJhbGxvb24ge1xuICBzdGF0aWMgY29sb3JzID0gW1xuICAgICcjMWY3N2I0JyxcbiAgICAnI2ZmN2YwZScsXG4gICAgJyMyY2EwMmMnLFxuICAgICcjZDYyNzI4JyxcbiAgICAnIzk0NjdiZCcsXG4gICAgJyM4YzU2NGInLFxuICAgICcjZTM3N2MyJyxcbiAgICAnIzdmN2Y3ZicsXG4gICAgJyNiY2JkMjInLFxuICAgICcjMTdiZWNmJ1xuICBdXG5cbiAgY29uc3RydWN0b3IocHJvcHMgPSB7fSkge1xuICAgIHRoaXMucHJvcHMgPSBwcm9wc1xuICAgIHRoaXMuaWQgPSBgYmFsbG9vbi0ke3Byb3BzLmluZGV4IHx8IDB9YFxuICAgIHRoaXMuc2V0V2lkdGgoKVxuICAgIHRoaXMuc2V0SGVpZ2h0KClcbiAgICB0aGlzLnNldENvbG9yKClcbiAgICB0aGlzLnVwZGF0ZShwcm9wcylcbiAgICByZXR1cm4gdGhpc1xuICB9XG5cbiAgbW91bnQoKSB7XG4gICAgJCh0aGlzLmRvbU5vZGUpLmFwcGVuZFRvKCdib2R5JylcbiAgICB0aGlzLmNvbXBvbmVudERpZE1vdW50KClcblxuICAgIHJldHVybiB0aGlzXG4gIH1cblxuICBjb21wb25lbnREaWRNb3VudCgpIHtcbiAgICBjb25zdCB7IHdpZHRoIH0gPSB0aGlzLnByb3BzXG4gICAgY29uc3QgeGRpZmYgPSBNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiAxMDApXG4gICAgY29uc3QgY29udGFpbmVyID0gJChgIyR7dGhpcy5pZH1gKVxuXG4gICAgY29udGFpbmVyLmJpbmQoJ2NsaWNrJywgdGhpcy5wb3AuYmluZCh0aGlzKSlcblxuICAgIGNvbnRhaW5lci5hbmltYXRlKHtcbiAgICAgIGJvdHRvbTogJzEwMCUnLFxuICAgICAgbGVmdDogeGRpZmYgKyAnJSdcbiAgICB9LCAoODAwMCAtIHdpZHRoICogMTApKVxuICB9XG5cbiAgdW5tb3VudCgpIHtcbiAgICBjb25zdCBub2RlID0gJChgIyR7dGhpcy5pZH1gKVxuICAgIGlmIChub2RlLmxlbmd0aCA+IDApIHtcbiAgICAgIG5vZGUucmVtb3ZlKClcbiAgICB9XG4gICAgcmV0dXJuIHRoaXNcbiAgfVxuXG4gIHVwZGF0ZShuZXdQcm9wcykge1xuICAgIHRoaXMucHJvcHMgPSBPYmplY3QuYXNzaWduKHt9LCB0aGlzLnByb3BzLCBuZXdQcm9wcylcbiAgICB0aGlzLmRvbU5vZGUgPSB0aGlzLnJlbmRlcigpXG4gIH1cblxuICBnZXRXaWR0aCgpIHtcbiAgICByZXR1cm4gdGhpcy5wcm9wcy53aWR0aCB8fCB0aGlzLnNldFdpZHRoKClcbiAgfVxuXG4gIHNldFdpZHRoKCkge1xuICAgIHRoaXMucHJvcHMud2lkdGggPSBNYXRoLm1heCgyMCwgTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogOTApICsgMSlcbiAgICByZXR1cm4gdGhpcy5wcm9wcy53aWR0aFxuICB9XG5cbiAgZ2V0SGVpZ2h0KCkge1xuICAgIHJldHVybiB0aGlzLnByb3BzLmhlaWdodCB8fCB0aGlzLnNldEhlaWdodCgpXG4gIH1cblxuICBzZXRIZWlnaHQoKSB7XG4gICAgdGhpcy5wcm9wcy5oZWlnaHQgPSAxLjIgKiB0aGlzLmdldFdpZHRoKClcbiAgICByZXR1cm4gdGhpcy5wcm9wcy5oZWlnaHRcbiAgfVxuXG4gIGdldENvbG9yKCkge1xuICAgIHJldHVybiB0aGlzLnByb3BzLmNvbG9yIHx8IHRoaXMuc2V0Q29sb3IoKVxuICB9XG5cbiAgc2V0Q29sb3IoKSB7XG4gICAgdGhpcy5wcm9wcy5jb2xvciA9IEJhbGxvb24uY29sb3JzW01hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIEJhbGxvb24uY29sb3JzLmxlbmd0aCldXG4gICAgcmV0dXJuIHRoaXMucHJvcHMuY29sb3JcbiAgfVxuXG4gIHBvcCgpIHtcbiAgICBjb25zdCB7IGluZGV4IH0gPSB0aGlzLnByb3BzXG4gICAgUG9wU291bmQucGxheSgpXG4gICAgdGhpcy51bm1vdW50KClcbiAgICB0aGlzLnByb3BzLm9uUG9wKGluZGV4KVxuICB9XG5cbiAgcmVuZGVyKCkge1xuICAgIGNvbnN0IHsgY29sb3IsIGhlaWdodCwgd2lkdGggfSA9IHRoaXMucHJvcHNcblxuICAgIHJldHVybihgXG4gICAgICA8ZGl2IGNsYXNzPSdiYWxsb29uJyBpZD0nJHt0aGlzLmlkfSdcbiAgICAgICAgc3R5bGU9J2xlZnQ6IDUwJTsgYm90dG9tOiAwJz5cbiAgICAgICAgPGRpdiBjbGFzcz0nYnViYmxlJ1xuICAgICAgICAgIHN0eWxlPSdiYWNrZ3JvdW5kLWNvbG9yOiAke2NvbG9yfTtcbiAgICAgICAgICAgIGhlaWdodDogJHtoZWlnaHR9cHg7XG4gICAgICAgICAgICB3aWR0aDogJHt3aWR0aH1weDtcbiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6ICR7d2lkdGh9cHggLyAke2hlaWdodH1weCcvPlxuICAgICAgICA8ZGl2IGNsYXNzPSdzdHJpbmcnXG4gICAgICAgICAgc3R5bGU9J21hcmdpbi1sZWZ0OiAkezAuNSAqIHdpZHRofXB4OyBoZWlnaHQ6ICR7MC41ICogaGVpZ2h0fXB4Jy8+XG4gICAgICA8L2Rpdj5cbiAgICBgKVxuICB9XG59XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "Balloon.js"
+      ],
+      "names": [
+        "Balloon",
+        "props",
+        "id",
+        "index",
+        "setWidth",
+        "setHeight",
+        "setColor",
+        "update",
+        "domNode",
+        "appendTo",
+        "componentDidMount",
+        "width",
+        "xdiff",
+        "Math",
+        "floor",
+        "random",
+        "container",
+        "bind",
+        "pop",
+        "animate",
+        "bottom",
+        "left",
+        "node",
+        "length",
+        "remove",
+        "newProps",
+        "Object",
+        "assign",
+        "render",
+        "max",
+        "height",
+        "getWidth",
+        "color",
+        "colors",
+        "play",
+        "unmount",
+        "onPop"
+      ],
+      "mappings": ";;;;;;;;AAAA;;;;AACA;;AACA;;;;;;;;IAEqBA,O;AAcnB,qBAAwB;AAAA,QAAZC,KAAY,uEAAJ,EAAI;;AAAA;;AACtB,SAAKA,KAAL,GAAaA,KAAb;AACA,SAAKC,EAAL,iBAAqBD,MAAME,KAAN,IAAe,CAApC;AACA,SAAKC,QAAL;AACA,SAAKC,SAAL;AACA,SAAKC,QAAL;AACA,SAAKC,MAAL,CAAYN,KAAZ;AACA,WAAO,IAAP;AACD;;;;4BAEO;AACN,4BAAE,KAAKO,OAAP,EAAgBC,QAAhB,CAAyB,MAAzB;AACA,WAAKC,iBAAL;;AAEA,aAAO,IAAP;AACD;;;wCAEmB;AAAA,UACVC,KADU,GACA,KAAKV,KADL,CACVU,KADU;;AAElB,UAAMC,QAAQC,KAAKC,KAAL,CAAWD,KAAKE,MAAL,KAAgB,GAA3B,CAAd;AACA,UAAMC,YAAY,4BAAM,KAAKd,EAAX,CAAlB;;AAEAc,gBAAUC,IAAV,CAAe,OAAf,EAAwB,KAAKC,GAAL,CAASD,IAAT,CAAc,IAAd,CAAxB;;AAEAD,gBAAUG,OAAV,CAAkB;AAChBC,gBAAQ,MADQ;AAEhBC,cAAMT,QAAQ;AAFE,OAAlB,EAGI,OAAOD,QAAQ,EAHnB;AAID;;;8BAES;AACR,UAAMW,OAAO,4BAAM,KAAKpB,EAAX,CAAb;AACA,UAAIoB,KAAKC,MAAL,GAAc,CAAlB,EAAqB;AACnBD,aAAKE,MAAL;AACD;AACD,aAAO,IAAP;AACD;;;2BAEMC,Q,EAAU;AACf,WAAKxB,KAAL,GAAayB,OAAOC,MAAP,CAAc,EAAd,EAAkB,KAAK1B,KAAvB,EAA8BwB,QAA9B,CAAb;AACA,WAAKjB,OAAL,GAAe,KAAKoB,MAAL,EAAf;AACD;;;+BAEU;AACT,aAAO,KAAK3B,KAAL,CAAWU,KAAX,IAAoB,KAAKP,QAAL,EAA3B;AACD;;;+BAEU;AACT,WAAKH,KAAL,CAAWU,KAAX,GAAmBE,KAAKgB,GAAL,CAAS,EAAT,EAAahB,KAAKC,KAAL,CAAWD,KAAKE,MAAL,KAAgB,EAA3B,IAAiC,CAA9C,CAAnB;AACA,aAAO,KAAKd,KAAL,CAAWU,KAAlB;AACD;;;gCAEW;AACV,aAAO,KAAKV,KAAL,CAAW6B,MAAX,IAAqB,KAAKzB,SAAL,EAA5B;AACD;;;gCAEW;AACV,WAAKJ,KAAL,CAAW6B,MAAX,GAAoB,MAAM,KAAKC,QAAL,EAA1B;AACA,aAAO,KAAK9B,KAAL,CAAW6B,MAAlB;AACD;;;+BAEU;AACT,aAAO,KAAK7B,KAAL,CAAW+B,KAAX,IAAoB,KAAK1B,QAAL,EAA3B;AACD;;;+BAEU;AACT,WAAKL,KAAL,CAAW+B,KAAX,GAAmBhC,QAAQiC,MAAR,CAAepB,KAAKC,KAAL,CAAWD,KAAKE,MAAL,KAAgBf,QAAQiC,MAAR,CAAeV,MAA1C,CAAf,CAAnB;AACA,aAAO,KAAKtB,KAAL,CAAW+B,KAAlB;AACD;;;0BAEK;AAAA,UACI7B,KADJ,GACc,KAAKF,KADnB,CACIE,KADJ;;AAEJ,yBAAS+B,IAAT;AACA,WAAKC,OAAL;AACA,WAAKlC,KAAL,CAAWmC,KAAX,CAAiBjC,KAAjB;AACD;;;6BAEQ;AAAA,mBAC0B,KAAKF,KAD/B;AAAA,UACC+B,KADD,UACCA,KADD;AAAA,UACQF,MADR,UACQA,MADR;AAAA,UACgBnB,KADhB,UACgBA,KADhB;;;AAGP,sDAC6B,KAAKT,EADlC,wHAIiC8B,KAJjC,+BAKkBF,MALlB,gCAMiBnB,KANjB,wCAOyBA,KAPzB,aAOsCmB,MAPtC,8EAS4B,MAAMnB,KATlC,oBASsD,MAAMmB,MAT5D;AAYD;;;;;;AA1GkB9B,O,CACZiC,M,GAAS,CACd,SADc,EAEd,SAFc,EAGd,SAHc,EAId,SAJc,EAKd,SALc,EAMd,SANc,EAOd,SAPc,EAQd,SARc,EASd,SATc,EAUd,SAVc,C;kBADGjC,O",
+      "file": "Balloon.js",
+      "sourceRoot": "/Users/tmhage/code/tasteofcode-webpack/src",
+      "sourcesContent": [
+        "import $ from 'jquery'\nimport './Balloon.sass'\nimport PopSound from './PopSound'\n\nexport default class Balloon {\n  static colors = [\n    '#1f77b4',\n    '#ff7f0e',\n    '#2ca02c',\n    '#d62728',\n    '#9467bd',\n    '#8c564b',\n    '#e377c2',\n    '#7f7f7f',\n    '#bcbd22',\n    '#17becf'\n  ]\n\n  constructor(props = {}) {\n    this.props = props\n    this.id = `balloon-${props.index || 0}`\n    this.setWidth()\n    this.setHeight()\n    this.setColor()\n    this.update(props)\n    return this\n  }\n\n  mount() {\n    $(this.domNode).appendTo('body')\n    this.componentDidMount()\n\n    return this\n  }\n\n  componentDidMount() {\n    const { width } = this.props\n    const xdiff = Math.floor(Math.random() * 100)\n    const container = $(`#${this.id}`)\n\n    container.bind('click', this.pop.bind(this))\n\n    container.animate({\n      bottom: '100%',\n      left: xdiff + '%'\n    }, (8000 - width * 10))\n  }\n\n  unmount() {\n    const node = $(`#${this.id}`)\n    if (node.length > 0) {\n      node.remove()\n    }\n    return this\n  }\n\n  update(newProps) {\n    this.props = Object.assign({}, this.props, newProps)\n    this.domNode = this.render()\n  }\n\n  getWidth() {\n    return this.props.width || this.setWidth()\n  }\n\n  setWidth() {\n    this.props.width = Math.max(20, Math.floor(Math.random() * 90) + 1)\n    return this.props.width\n  }\n\n  getHeight() {\n    return this.props.height || this.setHeight()\n  }\n\n  setHeight() {\n    this.props.height = 1.2 * this.getWidth()\n    return this.props.height\n  }\n\n  getColor() {\n    return this.props.color || this.setColor()\n  }\n\n  setColor() {\n    this.props.color = Balloon.colors[Math.floor(Math.random() * Balloon.colors.length)]\n    return this.props.color\n  }\n\n  pop() {\n    const { index } = this.props\n    PopSound.play()\n    this.unmount()\n    this.props.onPop(index)\n  }\n\n  render() {\n    const { color, height, width } = this.props\n\n    return(`\n      <div class='balloon' id='${this.id}'\n        style='left: 50%; bottom: 0'>\n        <div class='bubble'\n          style='background-color: ${color};\n            height: ${height}px;\n            width: ${width}px;\n            border-radius: ${width}px / ${height}px'/>\n        <div class='string'\n          style='margin-left: ${0.5 * width}px; height: ${0.5 * height}px'/>\n      </div>\n    `)\n  }\n}\n"
+      ]
+    },
+    "mtime": 1481801837000
+  },
+  "{\"filename\":\"/Users/tmhage/code/tasteofcode-webpack/src/PopSound.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/tmhage/code/tasteofcode-webpack/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.20.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "jquery",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "$"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/tmhage/code/tasteofcode-webpack/src/PopSound.js",
+      "filenameRelative": "/Users/tmhage/code/tasteofcode-webpack/src/PopSound.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "PopSound.js",
+      "sourceFileName": "PopSound.js",
+      "sourceRoot": "/Users/tmhage/code/tasteofcode-webpack/src",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/tmhage/code/tasteofcode-webpack/src",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "PopSound"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _jquery = require('jquery');\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar preloadPopSound = function preloadPopSound() {\n  var sound = require('./assets/balloon-pop.mp3');\n  var audio = new Audio(sound);\n  audio.preload = 'auto';\n  return audio;\n};\n\nexports.default = preloadPopSound();\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlBvcFNvdW5kLmpzIl0sIm5hbWVzIjpbInByZWxvYWRQb3BTb3VuZCIsInNvdW5kIiwicmVxdWlyZSIsImF1ZGlvIiwiQXVkaW8iLCJwcmVsb2FkIl0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTs7Ozs7O0FBRUEsSUFBTUEsa0JBQWtCLFNBQWxCQSxlQUFrQixHQUFNO0FBQzVCLE1BQU1DLFFBQVFDLFFBQVEsMEJBQVIsQ0FBZDtBQUNBLE1BQU1DLFFBQVEsSUFBSUMsS0FBSixDQUFVSCxLQUFWLENBQWQ7QUFDQUUsUUFBTUUsT0FBTixHQUFnQixNQUFoQjtBQUNBLFNBQU9GLEtBQVA7QUFDRCxDQUxEOztrQkFPZUgsaUIiLCJmaWxlIjoiUG9wU291bmQuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL3RtaGFnZS9jb2RlL3Rhc3Rlb2Zjb2RlLXdlYnBhY2svc3JjIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICQgZnJvbSAnanF1ZXJ5J1xuXG5jb25zdCBwcmVsb2FkUG9wU291bmQgPSAoKSA9PiB7XG4gIGNvbnN0IHNvdW5kID0gcmVxdWlyZSgnLi9hc3NldHMvYmFsbG9vbi1wb3AubXAzJylcbiAgY29uc3QgYXVkaW8gPSBuZXcgQXVkaW8oc291bmQpXG4gIGF1ZGlvLnByZWxvYWQgPSAnYXV0bydcbiAgcmV0dXJuIGF1ZGlvXG59XG5cbmV4cG9ydCBkZWZhdWx0IHByZWxvYWRQb3BTb3VuZCgpXG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "PopSound.js"
+      ],
+      "names": [
+        "preloadPopSound",
+        "sound",
+        "require",
+        "audio",
+        "Audio",
+        "preload"
+      ],
+      "mappings": ";;;;;;AAAA;;;;;;AAEA,IAAMA,kBAAkB,SAAlBA,eAAkB,GAAM;AAC5B,MAAMC,QAAQC,QAAQ,0BAAR,CAAd;AACA,MAAMC,QAAQ,IAAIC,KAAJ,CAAUH,KAAV,CAAd;AACAE,QAAME,OAAN,GAAgB,MAAhB;AACA,SAAOF,KAAP;AACD,CALD;;kBAOeH,iB",
+      "file": "PopSound.js",
+      "sourceRoot": "/Users/tmhage/code/tasteofcode-webpack/src",
+      "sourcesContent": [
+        "import $ from 'jquery'\n\nconst preloadPopSound = () => {\n  const sound = require('./assets/balloon-pop.mp3')\n  const audio = new Audio(sound)\n  audio.preload = 'auto'\n  return audio\n}\n\nexport default preloadPopSound()\n"
+      ]
+    },
+    "mtime": 1481801855000
+  }
+}

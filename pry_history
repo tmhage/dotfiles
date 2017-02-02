@@ -1,0 +1,252 @@
+project
+project
+project.header_image
+project.header_image
+project.header_image.url
+project.header_image.url
+c
+c
+continue
+continue
+continue
+exit!
+exit!
+Topic.friendly.find(params[:id])
+Topic.friendly.find(params[:id])
+c
+c
+c
+continue
+continue
+c
+c
+continue
+continue
+topic
+topic
+quit
+quit
+quit
+@logo
+@logo
+logo
+logo
+@logo
+@logo
+c
+c
+>
+>
+quit
+quit
+quit
+Publications.new
+Publication.new
+Publication.all
+quit
+Publication.search
+Publication.reindex
+quit
+Publication.all
+quit
+address
+c
+@variant
+c
+rai 
+c
+variant
+c
+address
+c
+address
+address.short_description
+c
+short_description
+:short_description
+variant
+c
+bron
+c
+variant
+content
+c
+content
+content.strip
+content.strip.class
+c
+quit
+Address.last
+c
+a = ""
+a.nil?
+a.empty?
+c
+RedCloth
+redcloth("hello")
+require 'redcloth'
+redcloth("hello")
+RedCloth.new("* hi")
+RedCloth.new("* hi").to_html
+RedCloth.new("## hi").to_html
+RedCloth.new("# hi").to_html
+RedCloth.new("## hi").to_html
+RedCloth.new("h3. hi").to_html
+User.create(email: "timmo@demonsters.nl", password: "hellokitty", password_confirmation: "hellokitty")
+quit
+Testimonal.create(author: "jim", quote: "jim")
+Testimonial.create(author: "jim", quote: "jim")
+Testimonial.create(author: "jism", quote: "jism")
+Testimonial.create(author: "jidsm", quote: "jdism")
+Testimonial.create(author: "jddidsm", quote: "jdisddm")
+Testimonial.update_all
+Testimonial.update_all(quote: "he")
+Testimonial.all
+Testimonial.create(author: "jddidssm", quote: "jdisddm")
+reload!
+Testimonial.update_all(quote: "he")
+Testimonial.create(author: "jddidsdwdsm", quote: "jdisdawdaddm")
+Testimonial.all.count
+Testimonial.rank(:row_order).al
+Testimonial.rank(:row_order).all
+Testimonial.last
+Testimonial.rank
+Testimonial.last.last?
+Testimonial.last.first?
+Testimonial.last.sort_order_position = :first
+Testimonial.last.row_order_position = :first
+Testimonial.last
+Testimonial.last.save
+Testimonial.last
+Testimonial.all.rank(:row_order)
+Testimonial.rank(:row_order)
+Snippet.create(title: "hi", body: "temp")
+User.first
+User.create(email: "timmo@demonsters.nl", password: "hellokitty", password_confirmation: "hellokitty")
+reload!
+Testimonial.all.count
+Testimonial.last
+Testimonial.last.update_attribute :row_order_position, :first
+Testimonial.last
+Testimonial.rank(:row_order).all
+Testimonial.last.row_order_position = :last
+Testimonial.last
+Testimonial.last.row_order_position| = :last
+Testimonial.last.row_order_position= :last
+Testimonial.last.row_order_position |= :last
+Testimonial.last
+Testimonial.rank(:row_order).all
+Testimonial.last.row_order_position |= :last
+Testimonial.last.position
+Testimonial.last.update_index_from_position
+d
+Testimonial.last.row_order_position
+Testimonial.last.row_order_position :last
+Testimonial.last.row_order = :last
+Testimonial.last.save
+Testimonial.last
+Testimonial.create(author:"first", row_order_position: :first)
+Testimonial.rank(:row_order).all
+quit
+User.create(email: "timmo@demonsters.nl", password: "superveilig", password_confirmation: "superveilig")
+quir
+upload
+upload.file
+upload.file.url
+upload.file.url.methods
+uit
+upload.file.url(:original, false)
+c
+position
+c
+PublicationType.new
+PublicationType.first
+Address.first
+\
+quit
+Publication.create(title: 'Tag tester', body: "Testbody" )
+Publication.new
+Publication.first
+ActivityType.create
+Publication.create
+quit
+Publication.create(title: 'Tag tester', body: "Testbody", user_id: 1 )
+Publication.new(title: 'Tag tester', body: "Testbody", user_id: 1 )
+User.first.publications.build
+User.first.publication.build
+Publication.create(title: 'Tag tester', body: "Testbody", user_id: 1, state: "published" )
+Publication.create(title: 'Tag tester', body: "Testbody", user_id: 1, state: "published", scientist_id: 1 )
+Publication.create(title: 'Tag tester', body: "Testbody", user_id: 1, state: :published, scientist_id: 1,  )
+Publication.create(title: 'Tag tester', body: "Testbody", user_id: 1, state: :published, scientist_id: 1,  )UseUser.first
+User.first
+User.inputters
+User.find(441)
+a = _
+a.publications.build
+Thread.current
+User(441)
+a.make_current
+a.publications.build
+quit
+User.current?
+User.current
+quit
+Publicatie.find(62741)
+Publication.find(62741)
+Publicatie.find(62741)
+Publication.find(62741)
+Publication.last
+_.tags
+Publication.find(62741).tags
+Publication.last.delete
+Publication.last
+Publication.find(62741)
+Publication.last.delete
+Publication.last
+User.inputters.first
+User.inputters.last
+User.all
+User.all.count
+User.last
+User.editors
+User.editors.count
+Publication.last.delete
+Publication.where(title: "tag tester")
+Publication.where(title: "tag tester").exists
+Publication.where(title: "tag tester").exists?
+Publication.find_by(title: "Tag Tester").exists?(title: "tag tester").exists?
+Publication.find_by(title: "Tag Tester").exists?
+Publication.find_by(title: "Tag Tester")
+Publication.find_by(title: "Tag Tester").any?
+Publication.find_by(title: "Tag Tester").methods
+if Publication.find_by(title: "Tag Tester") return true
+Publication.find_by(title: "Tag Tester")
+Publication.find_by(title: "Tag Tester").true?
+if Publication.find_by(title: "Tag Tester")
+  true
+end
+if Publication.find_by(title: "Tag Testr")
+  true
+end
+unless Publication.find_by(title: "Tag Tester")
+  "hi"
+end
+if Publication.find_by(title: "Tag Tester")
+  "hi"
+end
+quit
+variant
+content
+c
+@variant
+c
+args
+c
+args
+c
+Publication.last
+quit
+c
+authors.collect { |w| link_to_author(w) }.to_sentence.html_safe
+c
+Publication.last

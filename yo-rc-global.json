@@ -1,0 +1,12 @@
+{
+  "generator-feathers:0.8.7": {
+    "promptValues": {
+      "database": "mongodb",
+      "type": "before",
+      "service": "user",
+      "method": [
+        "create"
+      ]
+    }
+  }
+}
